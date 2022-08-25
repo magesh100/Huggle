@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html{
+  
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+.header{
+  background-image:url("./bg-hero-desktop.svg") ;
+  height:70vh;
+  width:100%;
+}
+  .nav{
+
+  
+  padding: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+} 
+.button-first{
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+  color:black;
+  border: 2px solid lightblue;
+  font-weight: 700;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: white;
+
+}
+h1{
+  font-size: 900;
+}
+h3{
+  padding-top:2rem;
+  font-size:700;
+}
+.hero-section{
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.double{
+  width:600px;
+  height:400px;
+}
+.button-two{
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+  color:black;
+  border: 2px solid lightblue;
+  font-weight: 700;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: #cc0b8c;
+} 
+  
+  
+  
+
+ 
+  
+  
