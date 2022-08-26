@@ -171,6 +171,16 @@ ul{
 .logo-footer{
   margin-left:12rem;
 }
+.soc-list{
+  display: flex;
+  gap:4rem;
+}
+.ques{
+  gap:2rem;
+}
+.careers{
+  gap:4rem;
+}
 
 
 
