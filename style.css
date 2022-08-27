@@ -217,11 +217,16 @@ ul{
     padding: 0;
   }
   .double{
-    margin-top: 2rem;
+    margin-top: 7rem;
     
     width:200px;
-    height:100px;
+    height:150px;
     
+  }
+  .hero-left-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .hero-section{
     flex-direction: column;
