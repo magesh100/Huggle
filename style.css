@@ -143,7 +143,10 @@ ul{
 .footer{
   height:25rem;
   background-color: green;
+  color:white;
 }
+
+
 
 .contact-container{
   margin-top: 3rem;
@@ -169,6 +172,7 @@ ul{
   align-items: center;
 }
 .logo-footer{
+  margin-top:5rem;
   margin-left:12rem;
 }
 .soc-list{
@@ -183,23 +187,29 @@ ul{
 }
 .special-container{
   padding:2rem;
-  margin-left:25%;
-  height:300px;
-  width:45%;
+  margin-left:35%;
+  height:200px;
+  width:40%;
   border:0px solid;
+  display:flex;
+  justify-content: center;
+  align-items:center;
   border-radius:25px ;
   border-color: gray;
   box-shadow: 0px 1px 10px 0.1px gray;
   z-index:1;
   position:relative;
-  bottom:-50px;
+  bottom:-100px;
   background-color: white;
   
   text-align: center;
 }
-.ready{
-  padding:2rem;
+.location-one{
+  text-decoration: none;
+  color:white;
 }
+
+
 @media screen  and (min-width:378px) {
   .button-first{
     width:100px;
