@@ -181,6 +181,25 @@ ul{
 .careers{
   gap:4rem;
 }
+.special-container{
+  padding:2rem;
+  margin-left:25%;
+  height:300px;
+  width:45%;
+  border:0px solid;
+  border-radius:25px ;
+  border-color: gray;
+  box-shadow: 0px 1px 10px 0.1px gray;
+  z-index:1;
+  position:relative;
+  bottom:-50px;
+  background-color: white;
+  
+  text-align: center;
+}
+.ready{
+  padding:2rem;
+}
 
 
 
