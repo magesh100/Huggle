@@ -221,7 +221,7 @@ ul{
     
     width:200px;
     height:150px;
-    display: none;
+    
     
   }
   .hero-left-container{
@@ -233,6 +233,9 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    width:500px;
+    text-align: center;
   }
   .content-container-1{
     flex-direction: column;
