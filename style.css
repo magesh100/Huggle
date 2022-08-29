@@ -46,6 +46,10 @@ font-family: 'Poppins', sans-serif;
   background-color: white;
 
 }
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
 h1{
   font-size: 900;
 }
@@ -244,8 +248,8 @@ i{
   
     justify-content:space-between;
   }
-  header{
-    height:110vh;
+  .header{
+    height:140vh;
   }
   .button-first{
     width:150px;
