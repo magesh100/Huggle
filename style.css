@@ -239,6 +239,13 @@ i{
   color:aqua;
   background-color: blueviolet;
 }
+.copyright{
+  display:flex;
+  align-items: flex-end;
+  justify-content: right;
+  color:white;
+  margin-top:45px ;
+}
 
 
 @media screen  and (max-width:728px) {
