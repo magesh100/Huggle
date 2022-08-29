@@ -244,6 +244,9 @@ i{
   
     justify-content:space-between;
   }
+  header{
+    height:110vh;
+  }
   .button-first{
     width:150px;
     padding: 0.5rem 2rem;
