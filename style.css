@@ -278,6 +278,8 @@ i{
   }
   .header{
     height:100vh;
+    background-image: url("./bg-hero-mobile.svg");
+
   }
   .button-first{
     width:150px;
