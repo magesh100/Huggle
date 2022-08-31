@@ -21,8 +21,8 @@ font-family: 'Poppins', sans-serif;
   list-style: none;
 }
 .header{
-  
-  height:90vh;
+  background-image: url("./bg-hero-desktop.svg");
+  height:60vh;
   width:100%;
 }
   .nav{
