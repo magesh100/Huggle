@@ -21,9 +21,10 @@ font-family: 'Poppins', sans-serif;
   list-style: none;
 }
 .header{
-  background-image: url("./bg-hero-desktop.svg");
+  
   height:50vh;
   width:100%;
+  background-image: url("./bg-hero-desktop.svg");
 }
   .nav{
 
@@ -61,7 +62,7 @@ h3{
   font-size:700;
 }
 .hero-section{
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding-left: 4rem;
   padding-right: 4rem;
   display: flex;
