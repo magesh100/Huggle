@@ -22,7 +22,7 @@ font-family: 'Poppins', sans-serif;
 }
 .header{
   background-image: url("./bg-hero-desktop.svg");
-  height:60vh;
+  height:50vh;
   width:100%;
 }
   .nav{
