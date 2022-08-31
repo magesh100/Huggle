@@ -22,7 +22,7 @@ font-family: 'Poppins', sans-serif;
 }
 .header{
   
-  height:50vh;
+  height:40vh;
   width:100%;
   background-image: url("./bg-hero-desktop.svg");
 }
@@ -62,8 +62,8 @@ h3{
   font-size:700;
 }
 .hero-section{
-  height:20vh;
-  margin-top: 4rem;
+  
+  margin-top: 1rem;
   padding-left: 4rem;
   padding-right: 4rem;
   display: flex;
