@@ -61,6 +61,7 @@ h3{
   font-size:700;
 }
 .hero-section{
+  margin-top: 5rem;
   padding-left: 4rem;
   padding-right: 4rem;
   display: flex;
