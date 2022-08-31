@@ -178,6 +178,7 @@ ul{
 .contact-container{
   margin-top: 3rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
@@ -197,6 +198,8 @@ ul{
 .questions{
   flex-direction: column;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 .logo-footer{
   height:40px;
@@ -211,6 +214,9 @@ ul{
 }
 .soc-list{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
   gap:1rem;
 }
   a:hover{
@@ -232,6 +238,7 @@ i{
 .careers{
   gap:2rem;
   font-size: 15px;
+  
 }
 .special-container{
   padding:2rem;
@@ -373,7 +380,8 @@ i{
   }
   .footer-one{
     width:500px;
-    flex-direction: column;
+    height:500px;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
     
@@ -394,25 +402,12 @@ i{
     filter: brightness(30);
     
   }
-  .social-media{
-    display: flex;
-    align-items: flex-start;
-    justify-content:center ;
+  
 
   }
-  .soc-list{
-    align-self: flex-start;
-  }
-    
   
   
-  .questions{
-    margin-left: 0.1rem;
-    margin-top:1rem;
-  }
-  .career{
-    margin-left: 0.1rem;
-  }
+  
   .logo-end{
     display:flex;
     align-items:flex-start ;
@@ -421,14 +416,9 @@ i{
     
     
   }
-  .ques{
-    margin-bottom: 2rem;
-  }
-  .careers{
-    margin-bottom: 1rem;
-  }
+  
 
-}
+
 
   
   
