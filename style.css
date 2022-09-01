@@ -263,8 +263,9 @@ i{
   
  
   height:200px;
-  width: auto;
+  width:500px;
   border:0px solid;
+  margin: auto;
   
   border-radius:10px ;
   border-color: gray;
@@ -273,13 +274,15 @@ i{
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
   justify-content: center;
-  position:relative;
+  position: relative;
   bottom:-100px;
   background-color: white;
   
   text-align: center;
 }
+
 
 
 
@@ -342,7 +345,8 @@ i{
   .button-first{
     width:150px;
     padding: 0.5rem 2rem;
-    margin-top: 1rem;
+    margin-left:50px ;
+    margin-top: 3rem;
   font-size: 1rem;
   color:black;
   border: 4px solid lightblue;
@@ -351,8 +355,15 @@ i{
   cursor: pointer;
   text-transform: capitalize;
   background-color: white;
-  margin-left:8rem;
+  
     
+  }
+  .button-one{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .footer-one{
     height:auto;
@@ -381,7 +392,7 @@ i{
   .logo{
     width:100px;
     height:70px;
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
   
   .double{
@@ -407,6 +418,7 @@ i{
     text-align: center;
   }
   .content-container-1{
+    
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -418,13 +430,18 @@ i{
     height:150px;
   }
   .grow{
+    padding-top: 1rem;
     text-align: center;
   }
   .build{
     text-align: center;
   }
   .reimage{
+    padding-top: 1rem;
     text-align: center;
+  }
+  .you{
+    padding-top:1rem ;
   }
   .content-container-2{
     flex-direction: column-reverse;
@@ -491,6 +508,12 @@ i{
     filter:grayscale(200%);
     
     
+  }
+  .logo-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
   }
   
 } 
