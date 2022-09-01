@@ -93,7 +93,7 @@ h3{
 .content-container-1{
   padding:2rem;
   height:400px;
-  margin-right: 3rem;
+  margin-right: 1rem;
   width:90%;
   border:0px solid;
   border-radius:25px ;
@@ -116,7 +116,7 @@ h3{
 .content-container-2{
   padding:2rem;
   height:400px;
-  margin-right: 3rem;
+  margin-right: 1rem;
   width:90%;
   border:0px solid;
   border-radius:25px ;
@@ -141,7 +141,7 @@ h3{
 .content-container-3{
   padding:2rem;
   height:400px;
-  margin-right: 3rem;
+  margin-right: 1rem;
   width:90%;
   border:0px solid;
   border-radius:25px ;
@@ -314,6 +314,7 @@ i{
   .footer-one{
     height:auto;
     width:500px;
+    margin-right: 40px;
   }
   .special-container{
     width:250px;
