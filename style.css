@@ -177,6 +177,7 @@ ul{
 
 
 .contact-container{
+  
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
@@ -340,6 +341,9 @@ i{
     width:550px;
     
   }
+  .hero-section{
+    width:50%;
+  }
   .special-container{
     width:250px;
     height:200px;
@@ -447,7 +451,7 @@ i{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width:100%;
+    
     align-items: flex-start;
     margin-left: 3rem;
   }
