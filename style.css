@@ -97,8 +97,10 @@ h3{
   padding:2rem;
   height:400px;
   
-  width:90%;
-  margin:4rem;
+  width:80%;
+  margin:auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   border:0px solid;
   border-radius:25px ;
   border-color: gray;
@@ -121,12 +123,13 @@ h3{
   padding:2rem;
   height:400px;
   
-  width:90%;
-  margin:4rem;
+  width:80%;
+  margin:auto;
   border:0px solid;
   border-radius:25px ;
   border-color: gray;
   box-shadow: 0px 1px 10px 0.1px gray;
+  margin-bottom:3rem ;
   
   
   
@@ -144,11 +147,16 @@ h3{
   padding-top: 2rem;
 }
 .content-container-3{
+  display:flex;
+  justify-content: center;
+  align-items: center;
   padding:2rem;
   height:400px;
   
-  width:90%;
-  margin: 4rem;
+  width:80%;
+  
+  margin: auto;
+  margin-bottom: 3rem;
   border:0px solid;
   border-radius:25px ;
   border-color: gray;
