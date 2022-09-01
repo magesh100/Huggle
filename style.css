@@ -244,17 +244,20 @@ i{
 }
 .special-container{
   padding:2rem;
-  margin-left:25%;
-  height:300px;
-  width: 800px;
+  margin-left:35% ;
+ 
+  height:200px;
+  width: 500px;
   border:0px solid;
-  display:flex;
-  justify-content: center;
-  align-items:center;
+  
   border-radius:10px ;
   border-color: gray;
   box-shadow: 0px 1px 10px 0.1px gray;
   z-index:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position:relative;
   bottom:-100px;
   background-color: white;
@@ -310,25 +313,16 @@ i{
   }
   .footer-one{
     height:auto;
-    width:100%;
+    width:500px;
+  }
+  .special-container{
+    width:250px;
+    height:200px;
+    font-size: 10px;
+    bottom: -50px;
   }
   
-  .special{
-    width:100px;
-  }
-    .special-container{
-      width:50px;
-      height:100px;
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .special-button{
-      width:40px;
-      height:5px;
-    }
-    
+  
     
   
   
