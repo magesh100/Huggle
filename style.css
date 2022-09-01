@@ -12,6 +12,7 @@
 
 html{
   
+  
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
   
@@ -23,7 +24,7 @@ font-family: 'Poppins', sans-serif;
 .header{
   
   height:400px;
-  width:100%;
+  
   background-image: url("./bg-hero-desktop.svg");
 }
   .nav{
@@ -322,6 +323,7 @@ i{
 
 @media screen  and (max-width:728px) {
   .nav{
+    width:100%;
     
     padding-left:0rem;
     display:flex;
@@ -330,7 +332,8 @@ i{
   }
   .header{
     height:auto;
-    width:100%;
+    width: 100%;
+    
   
   background-image: url("./bg-hero-mobile.svg");
 
@@ -356,7 +359,7 @@ i{
     
   }
   .hero-section{
-    width:50%;
+    width:100%;
   }
   .special-container{
     width:250px;
